@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Code Quiz</title>
-    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     
@@ -17,12 +17,17 @@
     <button id = "answer4"></button>
     <br>
     <br>
-    <button id = "nextQuestion">Next Question</button>
+    <!-- want renderNextQuestion to be called only when this button is pressed -->
+    <button id = "nextQuestion" onclick="renderNextQuestion()">Next Question</button>
     <br>
     <br>
     <div id = "correct-answer"></div>
     <br>
     <div id = "countdownTimer"></div>
+    <br>
+    High Scorer: <div id = "highScoreInitials"></div>
+    <br>
+    High Score: <div id = "highScore"></div>
 
     <script src="./script.js"></script>
   </body>

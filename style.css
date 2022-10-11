@@ -1,0 +1,24 @@
+/* this is obviously very basic styling to be improved
+/* with resubmission, given time to work with, JS seemed
+/* more relevant */
+
+body {
+    background-color: lightblue;
+    color: navy;
+}
+
+button {
+    background-color: beige;
+    padding: 10pt;
+    margin-inline: 10pt;
+}
+
+#nextQuestion {
+    background-color: red;
+}
+
+#highScoreInitials, #highScore {
+    background-color: whitesmoke;
+    margin: 10pt;
+    width:fit-content;
+}
