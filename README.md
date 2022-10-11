@@ -6,7 +6,7 @@ This is a 10-second, 4 question multiple-choice game developed using primarily J
 There are some areas for concern in my development. I still need to create the time interval likely to be outside of the question rendering. I also need to add better styling, but for this assignment did not feel like the styling was what was going to make or break my success. As well, the high score display (and how it is stored locally) needs fine-tuning.
 
 ## How to Run the Quiz
-The web browser app for this fun and interactive quiz on coding can be found at: 
+The web browser app for this fun and interactive quiz on coding can be found at: https://dmklein79.github.io/challenge-4/
 
 ## How to Play
 Each question gives you ten seconds to answer. Answer as best you can! You will be told whether you are correct or not as soon as you choose an answer. When you have read your result, then select "Next Question" to move on. If you beat the high score, you will be prompted for your initials and a big congratulations are in order!
